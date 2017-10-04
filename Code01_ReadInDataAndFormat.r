@@ -19,13 +19,13 @@ mainFolder    = "\\\\allen/programs/celltypes/workgroups/hct/TBI_Analysis/manusc
 # LOCATION OF ALL OUTPUT FILES
 outputFolder  = paste(mainFolder,"outputFiles_NN/",sep="")     
 
-# LOCATION OF ALL FILES DOWNLOADED FROM WEBSITE
+# LOCATION OF ALL FILES DOWNLOADED FROM THE WEBSITE (http://aging.brain-map.org/download/index)
 inputFolder   = paste(mainFolder,"downloads/",sep="")       
 
-# LOCATION OF THE DATA FILES UNZIPPED FROM SUPPLEMENTARY DATA 1
+# LOCATION OF THE DATA FILES UNZIPPED FROM "dataFiles.zip" (DOWNLOADED FROM GITHUB)
 extraFolder   = paste(mainFolder,"additionalFiles/",sep="")
 
-# LOCATION OF THE SCRIPTS UNZIPPED FROM SUPPLEMENTARY DATA 1 (including this one)
+# LOCATION OF THE SCRIPTS DOWNLOADED FROM GITHUB (including this one)
 scriptsFolder = paste(mainFolder,"code/",sep="")
 
 #################################################################################################
