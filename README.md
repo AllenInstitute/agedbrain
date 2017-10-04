@@ -4,10 +4,10 @@ This repository contains code and files for reproducing the analysis presented i
 To reproduce the analysis, do the following:
 1) Download everything from the Aging, Dementia, and TBI Study download page (http://aging.brain-map.org/download/index) and save it in the same folder
 2) Download this github repository files.  Unzip "dataFiles.zip" and save to a folder.  Save "TbT_normalization.RData" in the same folder
-3) Save the five code files from this github repository in a different folder
+3) Save the six .r files from this github repository in a different folder
 4) Update the top several lines of "Code01_ReadInDataAndFormat.r" with the appropriate folder names (from above)
 5) Install the following R packages: sva, WGCNA, gridExtra, ggplot2, gplots, baySeq, edgeR, DESeq, NBPSeq, ROC, and mclust
-6) Run the five code files in order
+6) Run the five numbered code files in order
 
 Some useful websites:
 1) Allen Institute data portal: http://brain-map.org/
