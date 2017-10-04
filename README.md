@@ -10,7 +10,7 @@ To reproduce the analysis, do the following:
 6) Run the five code files in order
 
 Some useful websites:
-Allen Institute data portal: http://brain-map.org/
-The Aging, Dementia, and TBI Study main page: http://aging.brain-map.org/
-Raw data (FASTQ/bam files) for the RNA-Seq data presented in this study: https://www.niagads.org/datasets/ng00059
-Link to the open-access eLife article describing this resource: [Not yet available]
+1) Allen Institute data portal: http://brain-map.org/
+2) The Aging, Dementia, and TBI Study main page: http://aging.brain-map.org/
+3) Raw data (FASTQ/bam files) for the RNA-Seq data presented in this study: https://www.niagads.org/datasets/ng00059
+4) Link to the open-access eLife article describing this resource: [Not yet available]
