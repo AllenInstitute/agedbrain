@@ -14,3 +14,5 @@ Some useful websites:
 2) The Aging, Dementia, and TBI Study main page: http://aging.brain-map.org/
 3) Raw data (FASTQ/bam files) for the RNA-Seq data presented in this study: https://www.niagads.org/datasets/ng00059
 4) Link to the open-access eLife article describing this resource: [Not yet available]
+
+If you find any errors in this code, please let me know so I can correct them.  I have validated this code in R version 3.2.5 (2016-04-14), and don't expect other errors, but you never know.
