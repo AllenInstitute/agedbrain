@@ -630,7 +630,7 @@ for (cn in coln) {
 ##### ---------------------------------------------------------------------------------------------
 ##### ---------------------------------------------------------------------------------------------
 
-print("===== Repeat SVA on top 25 PCs for both normalized and data, and for all of the various quantitative metrics, Bonferroni corrected")
+print("===== Repeat SVA on top 25 PCs for both normalized and unnormalized data, and for all of the various quantitative metrics, Bonferroni corrected")
 coln    = colnames(comparisonInfo)
 svaOutN = list() 
 corMet  = "bonferroni"
@@ -714,11 +714,15 @@ out[rowSums(out)>1,]
 #ADorControl                 0   1   1   1   0   0   0   0
 #RIN                         1   1   1   1   1   1   3   4
 
+rn   = rownames(out[rowSums(out)>1,])
+out2 = cbind(svaOutU[[rn[length(rn)]]],svaOutN[[rn[length(rn)]]])
+for (cn in rn[1:(length(rn)-1)]){
+  out2 = cbind(out2,svaOutU[[cn]])
+  out2 = cbind(out2,svaOutN[[cn]])
+}
+write.csv(out2,"Fig6_data6_SVAassociationsWithPCAs.csv")
 
-
-
-
-
+                         
 ##### ---------------------------------------------------------------------------------------------
 ##### ---------------------------------------------------------------------------------------------
 ##### ---------------------------------------------------------------------------------------------
@@ -836,4 +840,3 @@ t.test(ctr,adr)$p.value
 # [1] 0.001180904
 
 # No signifincant difference in PMI in ROS or MAP (not shown).  Trend toward lower PMI in AD cases.  No difference in pH as well, although ~60% of the data points are missing.
-
